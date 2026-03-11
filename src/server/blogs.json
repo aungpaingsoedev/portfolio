@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "Hello I'm PhyoZ",
+        "image_url": "/images/blogs/blog1.jpg",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "category": "personal",
+        "date": "June 9, 2023 | at  5:12 AM"
+    },
+    {
+        "id": 2,
+        "title": "Blog One",
+        "image_url": "/images/blogs/blog2.jpg",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "category": "personal",
+        "date": "June 9, 2023 | at  06:12 AM"
+    },
+    {
+        "id": 3,
+        "title": "Blog Two",
+        "image_url": "/images/blogs/blog3.jpg",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "category": "project",
+        "date": "Dec 9, 2023 | at  10:12 PM"
+    },
+    {
+        "id": 4,
+        "title": "Blog Three",
+        "image_url": "/images/blogs/blog4.jpg",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "category": "developing",
+        "date": "Dec 9, 2023 | at  10:12 PM"
+    },
+    {
+        "id": 5,
+        "title": "Blog Four",
+        "image_url": "/images/blogs/blog5.jpg",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "category": "developing",
+        "date": "Dec 9, 2023 | at  10:12 PM"
+    },
+    {
+        "id": 6,
+        "title": "Blog Five",
+        "image_url": "/images/blogs/blog6.jpg",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "category": "developing",
+        "date": "Dec 9, 2023 | at  10:12 PM"
+    },
+    {
+        "id": 7,
+        "title": "Blog Seven",
+        "image_url": "/images/blogs/blog7.jpg",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "category": "developing",
+        "date": "Dec 9, 2023 | at  10:12 PM"
+    },
+    {
+        "id": 8,
+        "title": "Blog Eight",
+        "image_url": "/images/blogs/blog8.jpg",
+        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "category": "developing",
+        "date": "Dec 9, 2023 | at  10:12 PM"
+    }
+]

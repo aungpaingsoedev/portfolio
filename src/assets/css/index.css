@@ -1,0 +1,41 @@
+@import "./fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.skill-card {
+  @apply h-[120px] rounded-2xl border shadow-md;
+}
+
+.nav-item {
+  @apply border-transparent border-b-4  hover:border-secondary transition-all;
+}
+
+/* .active {
+  @apply border-b-4 border-secondary;
+} */
+
+.default-btn {
+  @apply py-3 px-7 hover:shadow-lg hover:bg-dark transition-all bg-secondary rounded-full text-white;
+}
+
+.default-input {
+  @apply p-3 border-2 border-secondary w-full rounded-lg;
+}
+
+.modal-box {
+  @apply h-screen md:h-fit overflow-auto relative bg-white w-full  py-10 px-5;
+}
+
+.modal-close-btn {
+  @apply absolute top-0 end-0 text-secondary cursor-pointer hover:opacity-75 text-7xl;
+}
+
