@@ -46,13 +46,13 @@ const App = () => {
   }
 
   return (
-    <div className=' text-dark '>
+    <div className=' text-dark dark:bg-slate-900 dark:text-slate-100 min-h-screen transition-colors '>
       <CommonHeader />
       <ScrollToTop />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/blogs' element={<BlogPage />} />
-        <Route path='/blogs/:id' element={<BlogDetailPage />} />
+        <Route path='/blogs/:slug' element={<BlogDetailPage />} />
         <Route path='*' element={<NotFoundPage />} />
       </Routes>
       <CommonFooter />
@@ -66,7 +66,7 @@ const App = () => {
       <motion.div
         variants={variants}
         animate="default"
-        className=' hidden md:block w-[35px] h-[35px] rounded-full opacity-70 bg-secondary fixed top-0 left-0 z-40 '>
+        className=' hidden md:block w-[35px] h-[35px] rounded-full opacity-70 bg-secondary fixed top-0 left-0 z-40 dark:opacity-80 '>
       </motion.div>
     </div>
   )

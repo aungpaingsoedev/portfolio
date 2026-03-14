@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
             <div id='contact'></div>
-            <div className=' mb-10 md:pb-0 '>
+            <div className=' mb-10 md:pb-0 text-dark dark:text-slate-200 '>
                 <div className=' w-[95%] md:w-[65%] mx-auto text-center'>
                     <motion.div
                         viewport={{ once: true }}

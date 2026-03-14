@@ -12,7 +12,7 @@ html {
 }
 
 .skill-card {
-  @apply h-[120px] rounded-2xl border shadow-md;
+  @apply h-[120px] rounded-2xl border shadow-md bg-white dark:bg-slate-800 dark:border-slate-700 text-dark dark:text-slate-200;
 }
 
 .nav-item {
@@ -24,7 +24,7 @@ html {
 } */
 
 .default-btn {
-  @apply py-3 px-7 hover:shadow-lg hover:bg-dark transition-all bg-secondary rounded-full text-white;
+  @apply py-3 px-7 hover:shadow-lg hover:bg-dark dark:hover:bg-slate-600 transition-all bg-secondary rounded-full text-white;
 }
 
 .default-input {
@@ -32,10 +32,79 @@ html {
 }
 
 .modal-box {
-  @apply h-screen md:h-fit overflow-auto relative bg-white w-full  py-10 px-5;
+  @apply h-screen md:h-fit overflow-auto relative bg-white dark:bg-slate-900 w-full py-10 px-5;
 }
 
 .modal-close-btn {
   @apply absolute top-0 end-0 text-secondary cursor-pointer hover:opacity-75 text-7xl;
+}
+
+/* Blog detail – HTML content from Summernote / rich editor */
+.blog-content {
+  @apply text-slate-600 dark:text-slate-300;
+}
+
+.blog-content p {
+  @apply mb-4 last:mb-0;
+}
+
+.blog-content h1,
+.blog-content h2,
+.blog-content h3,
+.blog-content h4,
+.blog-content h5,
+.blog-content h6 {
+  @apply font-bold text-dark dark:text-white mt-6 mb-3 first:mt-0;
+}
+
+.blog-content h1 { @apply text-2xl md:text-3xl; }
+.blog-content h2 { @apply text-xl md:text-2xl; }
+.blog-content h3 { @apply text-lg md:text-xl; }
+.blog-content h4 { @apply text-base md:text-lg; }
+
+.blog-content ul,
+.blog-content ol {
+  @apply mb-4 pl-6;
+}
+
+.blog-content ul {
+  @apply list-disc;
+}
+
+.blog-content ol {
+  @apply list-decimal;
+}
+
+.blog-content li {
+  @apply mb-1;
+}
+
+.blog-content a {
+  @apply text-primary underline hover:no-underline;
+}
+
+.blog-content img {
+  @apply max-w-full h-auto rounded-lg my-4;
+}
+
+.blog-content blockquote {
+  @apply border-s-4 border-primary pl-4 py-2 my-4 italic text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-800 rounded-r;
+}
+
+.blog-content pre,
+.blog-content code {
+  @apply bg-slate-200 dark:bg-slate-700 rounded px-1 py-0.5 text-sm;
+}
+
+.blog-content pre {
+  @apply p-4 overflow-x-auto my-4 block;
+}
+
+.blog-content pre code {
+  @apply p-0 bg-transparent;
+}
+
+.blog-content strong {
+  @apply font-bold text-dark dark:text-white;
 }
 

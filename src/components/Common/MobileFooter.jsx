@@ -8,8 +8,8 @@ import { MdOutlineContactMail } from "react-icons/md";
 
 const MobileFooter = () => {
     return (
-        <div className=' fixed bottom-0 start-0 py-2 w-full px-2 border border-t-slate-300 shadow-2xl bg-white z-20 opacity-90 '>
-            <ul className=' flex justify-around items-center w-full '>
+        <div className=' fixed bottom-0 start-0 py-2 w-full px-2 border border-t-slate-300 dark:border-slate-600 shadow-2xl bg-white dark:bg-slate-900 z-20 opacity-90 transition-colors '>
+            <ul className=' flex justify-around items-center w-full text-dark dark:text-slate-200 '>
                 <li>
                     <a href='#home' className=' flex flex-col items-center justify-center cursor-pointer '>
                         <IoHomeOutline className=' text-xl ' />

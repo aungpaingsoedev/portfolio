@@ -165,7 +165,7 @@ const SkillSection = () => {
                       restDelta: 0.001
                     }
                   }}
-                  className=' skill-card flex flex-col justify-center items-center gap-1 h-full text-sm '>
+                  className=' skill-card flex flex-col justify-center items-center gap-1 h-full text-sm text-center '>
                   <div>
                     <PiProjectorScreen className=' text-3xl ' />
                   </div>

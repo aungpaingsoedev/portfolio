@@ -3,64 +3,128 @@
         "id": 1,
         "title": "Hello I'm PhyoZ",
         "image_url": "/images/blogs/blog1.jpg",
-        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "slug": "hello-im-phyoz",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "content": "<p><b><u>Hello&nbsp;</u></b><br><br>this is the project&nbsp;</p><h1 class=\"\"><img src=\"/images/photo_2026-03-14.jpeg\" data-filename=\"photo_2026-03-14 22.44.00.jpeg\" style=\"width: 25%;\"><br></h1>",
         "category": "personal",
-        "date": "June 9, 2023 | at  5:12 AM"
+        "date": "June 9, 2023 | at  5:12 AM",
+        "tags": [
+            "personal",
+            "development",
+            "programming"
+        ],
+        "author": "Aung Paing Soe"
     },
     {
         "id": 2,
         "title": "Blog One",
         "image_url": "/images/blogs/blog2.jpg",
-        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "slug": "hello-im-phyoz",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "content": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?</p>",
         "category": "personal",
-        "date": "June 9, 2023 | at  06:12 AM"
+        "date": "June 9, 2023 | at  06:12 AM",
+        "tags": [
+            "personal",
+            "development",
+            "programming"
+        ],
+        "author": "Aung Paing Soe"
     },
     {
         "id": 3,
         "title": "Blog Two",
         "image_url": "/images/blogs/blog3.jpg",
-        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "slug": "hello-im-phyoz",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "content": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?</p>",
         "category": "project",
-        "date": "Dec 9, 2023 | at  10:12 PM"
+        "date": "Dec 9, 2023 | at  10:12 PM",
+        "tags": [
+            "personal",
+            "development",
+            "programming"
+        ],
+        "author": "Aung Paing Soe"
     },
     {
         "id": 4,
         "title": "Blog Three",
         "image_url": "/images/blogs/blog4.jpg",
-        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "slug": "hello-im-phyoz",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "content": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?</p>",
         "category": "developing",
-        "date": "Dec 9, 2023 | at  10:12 PM"
+        "date": "Dec 9, 2023 | at  10:12 PM",
+        "tags": [
+            "personal",
+            "development",
+            "programming"
+        ],
+        "author": "Aung Paing Soe"
     },
     {
         "id": 5,
         "title": "Blog Four",
         "image_url": "/images/blogs/blog5.jpg",
-        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "slug": "hello-im-phyoz",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "content": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?</p>",
         "category": "developing",
-        "date": "Dec 9, 2023 | at  10:12 PM"
+        "date": "Dec 9, 2023 | at  10:12 PM",
+        "tags": [
+            "personal",
+            "development",
+            "programming"
+        ],
+        "author": "Aung Paing Soe"
     },
     {
         "id": 6,
         "title": "Blog Five",
         "image_url": "/images/blogs/blog6.jpg",
-        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "slug": "hello-im-phyoz",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "content": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?</p>",
         "category": "developing",
-        "date": "Dec 9, 2023 | at  10:12 PM"
+        "date": "Dec 9, 2023 | at  10:12 PM",
+        "tags": [
+            "personal",
+            "development",
+            "programming"
+        ],
+        "author": "Aung Paing Soe"
     },
     {
         "id": 7,
         "title": "Blog Seven",
         "image_url": "/images/blogs/blog7.jpg",
-        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "slug": "hello-im-phyoz",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "content": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?</p>",
         "category": "developing",
-        "date": "Dec 9, 2023 | at  10:12 PM"
+        "date": "Dec 9, 2023 | at  10:12 PM",
+        "tags": [
+            "personal",
+            "development",
+            "programming"
+        ],
+        "author": "Aung Paing Soe"
     },
     {
         "id": 8,
         "title": "Blog Eight",
         "image_url": "/images/blogs/blog8.jpg",
-        "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "slug": "hello-im-phyoz",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?",
+        "content": "<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat eaque dolorem eveniet officiis explicabo asperiores tenetur veritatis quos, vitae aut voluptates rem ad necessitatibus mollitia repudiandae ducimus. Nostrum, a magnam?</p>",
         "category": "developing",
-        "date": "Dec 9, 2023 | at  10:12 PM"
+        "date": "Dec 9, 2023 | at  10:12 PM",
+        "tags": [
+            "personal",
+            "development",
+            "programming"
+        ],
+        "author": "Aung Paing Soe"
     }
 ]

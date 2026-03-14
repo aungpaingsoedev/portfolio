@@ -13,6 +13,11 @@
   width: 100%;
 }
 
+.portfolio-grid .container {
+  float: none;
+  padding: 0;
+}
+
 .container .title {
   color: #1a1a1a;
   text-align: center;
@@ -24,6 +29,14 @@
   width: 100%;
   max-width: 400px;
   margin: auto;
+  overflow: hidden;
+}
+
+/* Portfolio 2-row grid: card fills cell */
+.content--grid {
+  max-width: none;
+  margin: 0;
+  border-radius: 0.75rem;
   overflow: hidden;
 }
 

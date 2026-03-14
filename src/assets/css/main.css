@@ -4,9 +4,7 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  /* background-image: url("/images/wallpapers/slider-3.jpg"); */
   background-size: cover;
-  background-position: bottom;
   background-position: center;
   background-attachment: fixed;
   position: relative;
@@ -16,7 +14,6 @@
 .home-hero::before {
   content: "";
   background: #485563;
-  background: -webkit-linear-gradient(to right, #29323c, #485563);
   background: linear-gradient(to right, #29323c, #485563);
   width: 100%;
   height: 100vh;
@@ -25,15 +22,61 @@
   z-index: -1;
 }
 
+/* Home Hero section background */
+.hero-section-bg {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.hero-section-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255, 112, 112, 0.06) 0%, rgba(191, 215, 237, 0.15) 50%, rgba(248, 250, 252, 0.9) 100%);
+  z-index: 0;
+}
+
+.dark .hero-section-bg::before {
+  background: linear-gradient(135deg, rgba(255, 112, 112, 0.08) 0%, rgba(30, 41, 59, 0.4) 50%, rgba(15, 23, 42, 0.95) 100%);
+}
+
+.hero-section-bg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 112, 112, 0.12) 1px, transparent 0);
+  background-size: 32px 32px;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.dark .hero-section-bg::after {
+  background-image: radial-gradient(circle at 1px 1px, rgba(255, 112, 112, 0.15) 1px, transparent 0);
+}
+
+.hero-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.dark .hero-blob {
+  opacity: 0.25;
+}
+
 ::-moz-selection {
   /* Code for Firefox */
   color: #f8fafc;
-  background: #60A3D9;
+  background: #FF7070;
 }
 
 ::selection {
   color: #f8fafc;
-  background: #60A3D9;
+  background: #FF7070;
 }
 
 .swiper-pagination {
@@ -54,13 +97,13 @@
 
 .swiper-pagination-bullet-active {
   color: #fff;
-  background-color: #60A3D9;
+  background-color: #FF7070;
 }
 
 /* Custom styles for Swiper navigation buttons */
 .swiper-button-next,
 .swiper-button-prev {
-  color: #60A3D9 !important; /* Change text color */
+  color: #FF7070 !important; /* Change text color */
   font-size: 5px !important; /* Change font size */
   border-radius: 5px; /* Add border radius for rounded corners */
   font-weight: bold !important;

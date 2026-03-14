@@ -3,9 +3,9 @@ import { useParams } from 'react-router-dom'
 import DetailSection from "../../components/Blog/DetailSection"
 
 const detail = () => {
-    const { id } = useParams();
+    const { slug } = useParams();
     return (
-        <DetailSection blogId={id} />
+        <DetailSection blogSlug={slug} />
     )
 }
 

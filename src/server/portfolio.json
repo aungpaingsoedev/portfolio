@@ -3,42 +3,36 @@
         "id": 1,
         "title": "Project One",
         "image_url": "/images/projects/project1.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "project_url": "http://localhost:5173/blogs/2",
+        "github_url": "https://github.com/aungpaingsoedev/project1",
+        "tech_stack": ["React", "Node.js", "Express.js", "MongoDB"]
     },
     {
         "id": 2,
         "title": "Project Two",
         "image_url": "/images/projects/project2.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "project_url": "http://localhost:5173/blogs/2",
+        "github_url": "https://github.com/aungpaingsoedev/project2",
+        "tech_stack": ["React", "Node.js", "Express.js", "MongoDB"]
     },
     {
         "id": 3,
         "title": "Project Three",
         "image_url": "/images/projects/project3.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "project_url": "http://localhost:5173/blogs/2",
+        "github_url": "https://github.com/aungpaingsoedev/project3",
+        "tech_stack": ["React", "Node.js", "Express.js", "MongoDB"]
     },
     {
         "id": 4,
         "title": "Project Four",
         "image_url": "/images/projects/project4.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
-    },
-    {
-        "id": 5,
-        "title": "Project Five",
-        "image_url": "/images/projects/project5.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
-    },
-    {
-        "id": 6,
-        "title": "Project Six",
-        "image_url": "/images/projects/project6.jpg",
-        "description": "text",
-        "project_url": "http://localhost:5173/blogs/2"
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "project_url": "http://localhost:5173/blogs/2",
+        "github_url": "https://github.com/aungpaingsoedev/project4",
+        "tech_stack": ["React", "Node.js", "Express.js", "MongoDB"]
     }
 ]

@@ -4,7 +4,13 @@ import homeData from "../../server/home.json";
 
 const HeroSection = () => {
     return (
-        <div id="home" className=' w-[98%] md:w-[65%] mx-auto h-screen flex gap-5 md:gap-0 flex-col-reverse md:flex-row items-center relative '>
+        <section id="home" className="hero-section-bg">
+            {/* Soft gradient blobs */}
+            <div className="hero-blob absolute w-[400px] h-[400px] bg-primary -top-40 -right-40 md:-top-52 md:-right-32" />
+            <div className="hero-blob absolute w-[300px] h-[300px] bg-secondary/60 top-1/2 -left-32 md:-left-24" />
+            <div className="hero-blob absolute w-[250px] h-[250px] bg-background bottom-20 right-1/4 opacity-30 dark:opacity-20" />
+
+            <div className='relative z-10 w-[98%] md:w-[65%] mx-auto h-screen flex gap-5 md:gap-0 flex-col-reverse md:flex-row items-center'>
             <div className=' basis-1/2 '>
                 <div className=' flex flex-col gap-2 md:gap-6 '>
                     <motion.div
@@ -18,22 +24,32 @@ const HeroSection = () => {
                         initial={{ y: 10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ type: "spring", bounce: 0.6, delay: 0.4 }}
-                        className=' text-2xl md:text-6xl font-bold '>
-                        { homeData.name }
+                        className=' text-2xl md:text-6xl font-bold text-dark dark:text-slate-100 '>
+                        {homeData.name}
                     </motion.div>
                     <motion.div
                         initial={{ y: 10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ type: "spring", bounce: 0.6, delay: 0.6 }}
                         className=' text-2xl md:text-4xl text-primary lobster-tow-font  '>
-                        { homeData.intro }
+                        {homeData.intro}
                     </motion.div>
                     <motion.div
                         initial={{ y: 10, opacity: 0 }}
                         animate={{ y: 0, opacity: 1 }}
                         transition={{ type: "spring", bounce: 0.6, delay: 0.8 }}
+                        className="text-slate-600 dark:text-slate-300"
                     >
-                        { homeData.content }
+                        {homeData.content}
+                    </motion.div>
+                    <motion.div
+                        initial={{ y: 10, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ type: "spring", bounce: 0.6, delay: 1.0 }}
+                    >
+                        <a href={homeData.resume} target="_blank" className=" button-56 cursor-pointer w-fit ">
+                            My Resume
+                        </a>
                     </motion.div>
                 </div>
             </div>
@@ -47,7 +63,7 @@ const HeroSection = () => {
                             }}
                             animate={{
                                 opacity: 1,
-                                rotate: -2
+                                rotate: 0
                             }}
                             transition={{
                                 delay: 0.4,
@@ -55,8 +71,8 @@ const HeroSection = () => {
                                 type: "spring",
                                 bounce: 0.5
                             }}
-                            src={ homeData.image }
-                            className=" h-[55vh] md:h-[65vh] object-cover grayscale-[40%] shadow-sm "
+                            src={homeData.image}
+                            className=" h-[55vh] md:h-[65vh] object-cover border rounded-lg grayscale-[40%] shadow-sm "
                             alt=""
                         />
                         <motion.img
@@ -106,12 +122,13 @@ const HeroSection = () => {
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ type: "spring", delay: 0.9 }}
-                    className=" animate-bounce cursor-pointer flex flex-col justify-center items-center hover:text-secondary ">
+                    className=" animate-bounce cursor-pointer flex flex-col justify-center items-center hover:text-secondary text-dark dark:text-slate-300 ">
                     <div>Scroll</div>
                     <PiArrowFatDown className=" text-3xl " />
                 </motion.a>
             </div>
-        </div>
+            </div>
+        </section>
     )
 }
 

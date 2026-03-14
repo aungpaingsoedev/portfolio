@@ -1,14 +1,14 @@
 /* CSS */
 .button-56 {
   align-items: center;
-  background-color: #FFB89D;
+  background-color: #f38686;
   border: 2px solid #485563;
   border-radius: 8px;
   box-sizing: border-box;
   color: #485563;
   cursor: pointer;
   display: flex;
-  font-family: Inter, sans-serif;
+  font-family: "Pixelify Sans", cursive;
   font-size: 16px;
   height: 48px;
   justify-content: center;
