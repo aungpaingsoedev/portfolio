@@ -1,59 +1,55 @@
-# 🚀 Shadcn Admin Dashboard
+# 🚀 Aung Paing Soe — Portfolio
 
-A modern **Admin Dashboard UI** built with **React**, **Vite**, **TailwindCSS**, and **Shadcn UI**.
-
-This project provides a clean, scalable, and developer-friendly admin interface for building dashboards, management panels, and internal tools.
-
----
-
-## ✨ Features
-
-* 🎨 Modern UI with **Shadcn UI**
-* ⚡ Fast development using **Vite**
-* 💨 Styled with **TailwindCSS**
-* 🌙 Dark mode dashboard
-* 📊 Analytics cards
-* 📈 Dashboard charts
-* 🧭 Sidebar navigation
-* 📄 Multiple pages
-* 📱 Fully responsive layout
-* 🧩 Reusable components
+Personal **portfolio website** for **Aung Paing Soe**, Back-End Web Developer. Built with **React**, **Vite**, and **TailwindCSS**. Features a pixel-style hero, responsive layout across desktop, tablet, and mobile, and sections for Skills, Projects, Blogs, and Contact.
 
 ---
 
 ## 🖼 Preview
 
-![Dashboard Preview](https://raw.githubusercontent.com/aungpaingsoedev/marzban-installation/refs/heads/main/marzban-dashboard-ui.png)
+![Portfolio Preview](./public/images/projects/portfolio.png)
+
+*Responsive design: Laptop • Tablet • Mobile*
+
+---
+
+## ✨ Features
+
+- 🏠 **Home** — Hero with intro, pixel-art style portrait, and “My Resume” CTA
+- 🛠 **Skills** — Tech stack and abilities
+- 📁 **Projects** — Portfolio grid with links and tech pills
+- 📝 **Blogs** — Blog list with search, tag filter, and detail pages (HTML content)
+- 📬 **Contact** — Contact section
+- 🌙 **Dark / Light theme** — Toggle with persistence
+- 📱 **Fully responsive** — Desktop, tablet, and mobile
+- ✨ **Animations** — Framer Motion and smooth transitions
 
 ---
 
 ## 🛠 Tech Stack
 
-* React
-* Vite
-* TypeScript
-* TailwindCSS
-* Shadcn UI
-* Lucide Icons
-* Recharts (or similar chart library)
+| Category      | Tech |
+|---------------|------|
+| Framework     | React 18 |
+| Build         | Vite 5 |
+| Styling       | TailwindCSS |
+| Animation     | Framer Motion |
+| Routing       | React Router v6 |
+| Carousel      | Swiper |
+| Icons         | React Icons |
+| State         | Redux Toolkit (modals) |
 
 ---
 
 ## 📦 Installation
 
-Clone the repository
+Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/shadcn-admin.git
+git clone https://github.com/aungpaingsoedev/portfolio.git
+cd portfolio
 ```
 
-Go to the project folder
-
-```bash
-cd shadcn-admin
-```
-
-Install dependencies
+Install dependencies:
 
 ```bash
 npm install
@@ -67,7 +63,7 @@ npm install
 npm run dev
 ```
 
-Open your browser
+Open in browser:
 
 ```
 http://localhost:5173
@@ -81,7 +77,7 @@ http://localhost:5173
 npm run build
 ```
 
-Preview production build
+Preview production build:
 
 ```bash
 npm run preview
@@ -92,103 +88,40 @@ npm run preview
 ## 📂 Project Structure
 
 ```
-shadcn-admin
-│
-├── public
-│
-├── src
-│   ├── components
-│   │   └── ui
-│   │
-│   ├── pages
-│   │
-│   ├── layouts
-│   │
-│   ├── hooks
-│   │
-│   ├── lib
-│   │
-│   ├── styles
-│   │
-│   └── main.tsx
-│
+portfolio/
+├── public/
+│   ├── images/          # Blog, project, and hero images
+│   └── pdf/             # Resume PDF
+├── src/
+│   ├── components/
+│   │   ├── Common/      # Header, Footer, MobileFooter
+│   │   ├── Home/        # Hero, Skills, Portfolio, Blog, Contact
+│   │   ├── Blog/        # ListSection, DetailSection
+│   │   └── Shared/      # Cards, Modals, Utils
+│   ├── context/         # ThemeContext (dark/light)
+│   ├── features/        # Redux store, modal slice
+│   ├── pages/           # home, blog, blog detail
+│   ├── server/          # blogs.json, portfolio.json, contact.json
+│   ├── assets/          # CSS, fonts
+│   ├── App.jsx
+│   └── main.jsx
 ├── index.html
 ├── package.json
 ├── tailwind.config.js
-└── vite.config.ts
+└── vite.config.js
 ```
 
 ---
 
-## 📄 Pages
+## 📄 Sections
 
-This admin template includes multiple sections:
-
-* Dashboard
-* Chats
-* Users
-* Customers
-* Products
-* Category
-* Authentication Pages
-* Error Pages
-* Settings
-* Help Center
-
----
-
-## 🎨 UI Components
-
-Built using **Shadcn UI components** such as:
-
-* Button
-* Card
-* Avatar
-* Badge
-* Input
-* Table
-* Sidebar
-* Dialog
-* Dropdown Menu
-
-All components are easily customizable.
-
----
-
-## 📱 Responsive Design
-
-The dashboard works smoothly across:
-
-* Desktop
-* Tablet
-* Mobile devices
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a new branch
-
-```
-git checkout -b feature-name
-```
-
-3. Commit your changes
-
-```
-git commit -m "Add new feature"
-```
-
-4. Push your branch
-
-```
-git push origin feature-name
-```
-
-5. Open a Pull Request
+| Section   | Description |
+|----------|-------------|
+| **Home** | Hero, Skills, Projects, Blog preview, Contact |
+| **Skills** | Skills list (from home or nav) |
+| **Projects** | Portfolio grid with GitHub/live links and tech stack |
+| **Blogs** | List with search, tag filter, featured posts; detail page with HTML content |
+| **Contact** | Contact form / info |
 
 ---
 
@@ -202,9 +135,9 @@ This project is licensed under the **MIT License**.
 
 **Aung Paing Soe**
 
-GitHub
-https://github.com/aungpaingsoedev
+- GitHub: [aungpaingsoedev](https://github.com/aungpaingsoedev)
+- Portfolio: [aungpaingsoedev.com](https://aungpaingsoedev.com)
 
 ---
 
-⭐ If you like this project, please consider giving it a **star** on GitHub.
+⭐ If you find this project useful, consider giving it a **star** on GitHub.

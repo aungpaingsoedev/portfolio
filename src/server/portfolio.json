@@ -6,33 +6,27 @@
         "description": "Shadcn UI Admin is a modern and responsive admin dashboard template built with React, Shadcn UI, Tailwind CSS, and TypeScript. It is a fully functional admin dashboard that includes a variety of features and components that can be used to build your own admin dashboard.",
         "project_url": "https://shadcn-admin-xi.vercel.app/",
         "github_url": "https://github.com/aungpaingsoedev/shadcn-admin.git",
-        "tech_stack": ["React", "Shadcn UI", "Tailwind CSS", "TypeScript", "JavaScript"]
+        "tech_stack": [
+            "React",
+            "Shadcn UI",
+            "Tailwind CSS",
+            "TypeScript",
+            "JavaScript"
+        ]
     },
     {
         "id": 2,
-        "title": "Project Two",
-        "image_url": "/images/projects/project2.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-        "project_url": "http://localhost:5173/blogs/2",
-        "github_url": "https://github.com/aungpaingsoedev/project2",
-        "tech_stack": ["React", "Node.js", "Express.js", "MongoDB"]
-    },
-    {
-        "id": 3,
-        "title": "Project Three",
-        "image_url": "/images/projects/project3.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-        "project_url": "http://localhost:5173/blogs/2",
-        "github_url": "https://github.com/aungpaingsoedev/project3",
-        "tech_stack": ["React", "Node.js", "Express.js", "MongoDB"]
-    },
-    {
-        "id": 4,
-        "title": "Project Four",
-        "image_url": "/images/projects/project4.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-        "project_url": "http://localhost:5173/blogs/2",
-        "github_url": "https://github.com/aungpaingsoedev/project4",
-        "tech_stack": ["React", "Node.js", "Express.js", "MongoDB"]
+        "title": "Edu-Learn (LMS Platform)",
+        "image_url": "/images/projects/edu-learn.png",
+        "description": "Edu-Learn is a modern and responsive learning management system built with React, Shadcn UI, Tailwind CSS, and TypeScript. It is a fully functional learning management system that includes a variety of features and components that can be used to build your own learning management system.",
+        "project_url": "https://edu-learn-flame.vercel.app/",
+        "github_url": "https://github.com/aungpaingsoedev/edu-learn.git",
+        "tech_stack": [
+            "Next.js",
+            "Shadcn UI",
+            "Tailwind CSS",
+            "TypeScript",
+            "JavaScript"
+        ]
     }
 ]
