@@ -28,5 +28,33 @@
             "TypeScript",
             "JavaScript"
         ]
+    },
+    {
+        "id": 3,
+        "title": "Fly Bird Game",
+        "image_url": "/images/projects/flying-bird.png",
+        "description": "Fly Bird Game is a modern turn based strategy game built with JavaScript, HTML5, Css & Phaser 3. It is a fully functional turn based strategy game that includes a variety of features and components that can be used to build your own turn based strategy game.",
+        "project_url": "https://flying-bird-lac.vercel.app/",
+        "github_url": "https://github.com/aungpaingsoedev/flying-bird.git",
+        "tech_stack": [
+            "JavaScript",
+            "HTML5",
+            "Css",
+            "Phaser 3"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Luna Shop (E-commerce)",
+        "image_url": "/images/projects/luna-shop.png",
+        "description": "လှပပြီး feature စုံတဲ့ e-commerce UI ပရိုဂျက်။ Shadcn UI နဲ့ Puzzle Accounting API ချိတ်ဆက်ထားပါတယ်။",
+        "project_url": "https://luna-shop-theta.vercel.app/",
+        "github_url": "https://github.com/aungpaingsoedev/luna-shop.git",
+        "tech_stack": [
+            "React",
+            "Shadcn UI",
+            "Tailwind CSS",
+            "Pizzle API"
+        ]
     }
 ]
