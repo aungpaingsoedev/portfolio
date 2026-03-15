@@ -43,7 +43,7 @@ const CircleBlogCard = ({ blog }) => {
                         <span className="italic">{blog.date}</span>
                     </div>
                     <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed line-clamp-3 flex-1">
-                        {except(blog.content, 120)}
+                        {except(blog.description, 120)}
                     </p>
                     <span className="inline-flex items-center gap-1 mt-4 text-primary font-medium text-sm hover:gap-2 transition-all">
                         Read More

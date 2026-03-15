@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "title": "Project One",
-        "image_url": "/images/projects/project1.jpg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-        "project_url": "http://localhost:5173/blogs/2",
-        "github_url": "https://github.com/aungpaingsoedev/project1",
-        "tech_stack": ["React", "Node.js", "Express.js", "MongoDB"]
+        "title": "Shadcn UI Admin",
+        "image_url": "/images/projects/shadcn-admin.png",
+        "description": "Shadcn UI Admin is a modern and responsive admin dashboard template built with React, Shadcn UI, Tailwind CSS, and TypeScript. It is a fully functional admin dashboard that includes a variety of features and components that can be used to build your own admin dashboard.",
+        "project_url": "https://shadcn-admin-xi.vercel.app/",
+        "github_url": "https://github.com/aungpaingsoedev/shadcn-admin.git",
+        "tech_stack": ["React", "Shadcn UI", "Tailwind CSS", "TypeScript", "JavaScript"]
     },
     {
         "id": 2,
