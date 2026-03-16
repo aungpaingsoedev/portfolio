@@ -136,7 +136,7 @@ This project is licensed under the **MIT License**.
 **Aung Paing Soe**
 
 - GitHub: [aungpaingsoedev](https://github.com/aungpaingsoedev)
-- Portfolio: [aungpaingsoedev.com](https://aungpaingsoedev.com)
+- Portfolio: [aungpaingsoedev.com](https://aungpaingsoe.dev)
 
 ---
 
